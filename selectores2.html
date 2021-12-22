@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div p {
+        color: lime;
+      }
+      div > div {
+        background: plum;
+      }
+      div + section {
+        background: orange;
+      }
+      div ~ p {
+        background: papayawhip;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>Descendietes</p>
+      <p>Otro Descendiente mas</p>
+      <div>
+        <p>Hijo Directo</p>
+      </div>
+    </div>
+    <section>Adyacente</section>
+    <p>Hermano 1</p>
+    <p>Hermano 2</p>
+    <p>Hermano 3</p>
+  </body>
+</html>
